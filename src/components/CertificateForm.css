@@ -1,0 +1,83 @@
+.certificate-container {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #111;
+  }
+  
+  .feature-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .subheading {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 1rem;
+  }
+  
+  .template-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .certificate-image {
+    width: 230px;
+    border: 2px solid #cbd5e1;
+    border-radius: 4px;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .certificate-image:hover {
+    transform: scale(3);
+    border-color: #4f46e5;
+  }
+  
+  .certificate-form {
+    margin-top: 3rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  
+  .certificate-form label {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .certificate-form input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 2px solid #000;
+    border-radius: 8px;
+    outline: none;
+    background-color: #fafafa;
+  }
+  

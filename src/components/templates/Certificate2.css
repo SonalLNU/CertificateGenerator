@@ -1,0 +1,24 @@
+.certificate-container.green-theme {
+    font-family: 'Pacifico', cursive;
+    border: 4px dashed #16a34a;
+    padding: 2rem;
+    background-color: #e6f4ea;
+    text-align: center;
+  }
+  .title {
+    font-size: 2.2rem;
+    color: #065f46;
+  }
+  .subtitle, .description {
+    font-size: 1rem;
+  }
+  .name {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  .footer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  

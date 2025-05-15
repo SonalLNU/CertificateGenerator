@@ -1,0 +1,24 @@
+.certificate-container.gold-theme {
+    font-family: 'Helvetica Neue', sans-serif;
+    border: 5px solid gold;
+    padding: 2rem;
+    background: linear-gradient(to bottom, #fff8dc, #fef4c5);
+    text-align: center;
+  }
+  .title {
+    font-size: 2.4rem;
+    color: #b7791f;
+  }
+  .subtitle, .description {
+    font-size: 1rem;
+  }
+  .name {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  .footer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  
